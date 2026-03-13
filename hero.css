@@ -43,6 +43,9 @@
             font-size: 4rem;
             transform: translateY(100px);
             opacity: 0;
+            background: linear-gradient(90deg, var(--white), var(--base));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
         }
 
         @property --gradient-angle {
