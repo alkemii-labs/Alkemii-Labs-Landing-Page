@@ -1,8 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alkemii Labs | AI Video Editor for AI Captions, Animations and Styles</title>
+    <meta
+      name="description"
+      content="Alkemii Labs is an AI video editor that helps creators add AI captions, AI animations, and AI styles to short-form videos faster."
+    >
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1C1917">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Alkemii Labs">
+    <meta property="og:title" content="Alkemii Labs | AI Video Editor">
+    <meta
+      property="og:description"
+      content="Add AI captions, AI animations, and AI styles with Alkemii Labs."
+    >
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Alkemii Labs | AI Video Editor">
+    <meta
+      name="twitter:description"
+      content="Add AI captions, AI animations, and AI styles with Alkemii Labs."
+    >
+    <link rel="icon" href="full-logo.png">
+    <link rel="preload" href="heading.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="base.woff2" as="font" type="font/woff2" crossorigin>
     <script type="importmap">
       {
         "imports": {
@@ -20,7 +43,44 @@
     <link rel="stylesheet" href="plans.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="https://use.typekit.net/xjn2bjt.css" />
-	<title></title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Alkemii Labs",
+        "alternateName": "Alkemii Labs AI Video Editor",
+        "description": "AI video editor for AI captions, AI animations, and AI styles.",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web",
+        "featureList": [
+          "AI captions",
+          "AI animations",
+          "AI styles",
+          "Style transfer",
+          "Chat-based video editing"
+        ],
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Free",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "name": "Creator",
+            "price": "19",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "name": "Pro",
+            "price": "49",
+            "priceCurrency": "USD"
+          }
+        ]
+      }
+    </script>
 </head>
 <body>
 
@@ -74,13 +134,13 @@
     </div>
 
     <div class="logo">
-    	<img src="full-logo.png">
+    	<img src="full-logo.png" alt="Alkemii Labs" width="443" height="96" decoding="async">
     </div>
       <div class="toggle-btn">
         <span style="color: var(--text);">Menu</span>
       </div>
 
-      <div class="menu-panel" id="site-menu" aria-hidden="true">
+      <div class="menu-panel" id="site-menu" aria-hidden="true" role="navigation" aria-label="Primary">
         <a class="menu-item" href="#">Home</a>
         <a class="menu-item" href="#">How it works</a>
         <a class="menu-item" href="#">Features</a>
@@ -88,24 +148,24 @@
       </div>
 
 
-    <div class="hero">
+    <div class="hero" id="home">
         <div id="hero-animation"></div>
         <div class="blk-gradient"></div>
         <div class="content">
             <h1>Turn Inspiration into Reality with<br>AI-Powered Video Editing</h1>
             <button style="pointer-events: auto;" class="shiny-cta">
-                <a style="font-family: 'base';text-decoration: none;">Get Started for Free</a>
+                <a href="https://useapp.alkemiilabs.com/" aria-label="Get started with Alkemii Labs AI video editor" style="font-family: 'base';text-decoration: none;">Get Started for Free</a>
             </button>
         </div>
     </div>
 
-<section class="sticky">
+<section class="sticky" aria-label="Who Alkemii Labs helps">
       <div class="sticky-header">
         <h1>Main character energy.</h1>
       </div>
 
       <div class="card">
-        <div class="card-img"><img src="./assets/img1.webp" alt="" /></div>
+        <div class="card-img"><img src="./assets/img1.webp" alt="Social media creator producing short-form videos with AI editing tools" width="500" height="333" loading="lazy" decoding="async" /></div>
         <div class="card-content">
           <div class="card-title"><h2>Social Media Creators</h2></div>
           <div class="card-description">
@@ -116,7 +176,7 @@
         </div>
       </div>
       <div class="card">
-        <div class="card-img"><img src="./assets/img2.webp" alt="" /></div>
+        <div class="card-img"><img src="./assets/img2.webp" alt="Professional editor using AI-assisted motion graphics and VFX workflows" width="500" height="333" loading="lazy" decoding="async" /></div>
         <div class="card-content">
           <div class="card-title"><h2>Professional Editors</h2></div>
           <div class="card-description">
@@ -127,7 +187,7 @@
         </div>
       </div>
       <div class="card">
-        <div class="card-img"><img src="./assets/img3.webp" alt="" /></div>
+        <div class="card-img"><img src="./assets/img3.webp" alt="Marketing team creating video ads with AI captions and animations" width="500" height="333" loading="lazy" decoding="async" /></div>
         <div class="card-content">
           <div class="card-title"><h2>Marketing Agencies</h2></div>
           <div class="card-description">
@@ -138,7 +198,7 @@
         </div>
       </div>
       <div class="card">
-        <div class="card-img"><img src="./assets/img4.webp" alt="" /></div>
+        <div class="card-img"><img src="./assets/img4.webp" alt="Indie filmmaker building cinematic edits with AI video styling" width="500" height="281" loading="lazy" decoding="async" /></div>
         <div class="card-content">
           <div class="card-title"><h2>Indie Filmmakers</h2></div>
           <div class="card-description">
@@ -149,7 +209,7 @@
         </div>
       </div>
       <div class="card">
-        <div class="card-img"><img src="./assets/img5.webp" alt="" /></div>
+        <div class="card-img"><img src="./assets/img5.webp" alt="Beginner creator editing videos with automated AI captions and effects" width="500" height="290" loading="lazy" decoding="async" /></div>
         <div class="card-content">
           <div class="card-title"><h2>Beginners & Enthusiasts</h2></div>
           <div class="card-description">
@@ -164,7 +224,7 @@
 
 
 
-<section class="comparison-section">
+<section class="comparison-section" aria-label="AI video editing workflow comparison">
     <div class="text-content">
       <h2 class="animate-title">The AI<br>Advantage</h2>
       <p class="animate-desc">Stop wasting hours on tedious manual labor. See how our AI handles the heavy lifting, allowing you to bypass the technical headaches and focus purely on your creative vision.</p>
@@ -204,7 +264,7 @@
 
 
 
-<section class="roadmap">
+<section class="roadmap" id="how-it-works">
     <div class="how-we-work" id="how-we-work">
       <div class="how-we-work-col how-we-work-header" id="how-we-work-header">
         <div class="container">
@@ -239,7 +299,7 @@
       <div class="how-we-work-col how-we-work-cards" id="how-we-work-cards">
         <div class="how-we-work-card">
           <div class="how-we-work-card-img">
-            <img src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=900&auto=format&fit=crop" alt="" />
+            <img src="./assets/how_it_works/1.png?v=2" alt="Upload a reference clip to guide the AI video edit" width="1896" height="855" loading="lazy" decoding="async" />
           </div>
           <div class="how-we-work-card-copy">
             <div class="how-we-work-card-index-label">
@@ -252,7 +312,7 @@
         </div>
         <div class="how-we-work-card">
           <div class="how-we-work-card-img">
-            <img src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=900&auto=format&fit=crop" alt="" />
+            <img src="./assets/how_it_works/2.png?v=2" alt="AI analyzes motion, effects, color, and style from the reference clip" width="2592" height="1294" loading="lazy" decoding="async" />
           </div>
           <div class="how-we-work-card-copy">
             <div class="how-we-work-card-index-label">
@@ -265,7 +325,7 @@
         </div>
         <div class="how-we-work-card">
           <div class="how-we-work-card-img">
-            <img src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=900&auto=format&fit=crop" alt="" />
+            <img src="./assets/how_it_works/3.png?v=2" alt="Apply the extracted AI style and effects to your own footage" width="1896" height="855" loading="lazy" decoding="async" />
           </div>
           <div class="how-we-work-card-copy">
             <div class="how-we-work-card-index-label">
@@ -278,7 +338,7 @@
         </div>
         <div class="how-we-work-card">
           <div class="how-we-work-card-img">
-            <img src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=900&auto=format&fit=crop" alt="" />
+            <img src="./assets/how_it_works/4.png?v=2" alt="Refine the AI-edited video and export the final version" width="1910" height="895" loading="lazy" decoding="async" />
           </div>
           <div class="how-we-work-card-copy">
             <div class="how-we-work-card-index-label">
@@ -294,7 +354,7 @@
 </section>
 
 
-<section class="ai-features-section" id="premium-features-v4">
+<section class="ai-features-section" id="features">
     <div class="features-header">
       <h2 class="animate-header">The Edit Engine</h2>
       <p class="animate-header">Built for speed. Designed for virality.</p>
@@ -355,7 +415,7 @@
 
 
 
-<div class="tier-wrapper">
+<div class="tier-wrapper" id="pricing">
       <div class="main-title">
         <h1>AlkemiiLabs Plans</h1>
       </div>

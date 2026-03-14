@@ -28,10 +28,12 @@ document.addEventListener("DOMContentLoaded", () => {
     if (toggleBtn && toggleLabel && menuPanel) {
         toggleBtn.setAttribute("role", "button");
         toggleBtn.setAttribute("tabindex", "0");
+        toggleBtn.setAttribute("aria-controls", "site-menu");
 
         const setOpen = (isOpen) => {
             menuPanel.classList.toggle("is-open", isOpen);
             menuPanel.setAttribute("aria-hidden", String(!isOpen));
+            toggleBtn.setAttribute("aria-expanded", String(isOpen));
             toggleLabel.textContent = isOpen ? "Close" : "Menu";
         };
 
